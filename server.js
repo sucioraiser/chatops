@@ -33,7 +33,7 @@ app.get('/api', function(req, res) {
 
 //consulta Turno 
 app.get('/api/v1/', urlencodedParser, (req, res) =>{
-    res.status(200).end(); // best practice to respond with empty 200 status code
+    //res.status(200).end(); // best practice to respond with empty 200 status code
   
     res.send('hola! ');
 
