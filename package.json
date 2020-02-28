@@ -13,6 +13,7 @@
     "express": "^4.17.1",
     "fs": "0.0.1-security",
     "node-slack-upload": "^2.0.0",
+    "morgan": "^1.7.0",
     "nodemon": "^2.0.2",
     "properties-reader": "^1.0.0",
     "request": "^2.88.0",
