@@ -35,7 +35,7 @@ app.get('/api', function(req, res) {
 app.get('/api/v1/', urlencodedParser, (req, res) =>{
     //res.status(200).end(); // best practice to respond with empty 200 status code
   
-    res.send('hola a todos! ');
+    res.send('hola a todos si si! ');
 
 });
 
