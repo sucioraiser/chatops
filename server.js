@@ -20,10 +20,12 @@ const PORT=8880;
 app.listen(PORT, function () {
    //Callback triggered when server is successfully listening. Hurray!
     console.log("Inicializando App:  " + PORT);
+   console.log("Estable:");
 });
 
 // This route handles GET requests to our root ngrok address and responds with the same "Ngrok is working message" we used before
-app.get('/', function(req, res) {
+app.get('/api', function(req, res) {
+    console.log("llegue a api:");
     res.send('Server Running! ' + req.url);
 });
 
